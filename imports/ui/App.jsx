@@ -69,8 +69,8 @@ if (this.state.hideCompleted){
 
             <AccountsUIWrapper />
 
-            { this.props.curentUser ?
-              <form className="new-task" onSubmit={ this.handleSubmit.bind(this) } >
+            { this.props.currentUser ?
+              <form className="new-task" onSubmit={ this.handleSubmit.bind(this)} >
                 <input 
                   type="text"
                   ref="textInput"
